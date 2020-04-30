@@ -20,3 +20,5 @@ USB2 controller  Intel Lynx Point-LP PCH - USB 2.0 EHCI Host Controller 1 [B2]
 USB3 controller  Intel Lynx Point-LP PCH - USB 3.0 xHCI Host Controller [B2]
 
 MacOS is implemented on the OpenCore bootloader, it turned out to set up everything except for WIFI Intel; a replacement for WIFI Broadcom is required. Graphics HD4400 works fine without glitches, the brightness changes, the keyboard and touch work, the battery is detected, the keyboard backlight is on, sleep and auto work, everything works, tested on MacOS systems 10.14.6-10.15.4
+
+Attention! This efi is intended only for this laptop with an i7-4510U processor.
