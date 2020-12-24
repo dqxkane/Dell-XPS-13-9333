@@ -20,4 +20,15 @@ USB2 controller  Intel Lynx Point-LP PCH - USB 2.0 EHCI Host Controller 1 [B2]
 
 USB3 controller  Intel Lynx Point-LP PCH - USB 3.0 xHCI Host Controller [B2]
 
-Graphics HD4400 works fine without glitches, the brightness changes, the keyboard and touch work, the battery is detected, the keyboard backlight is on, sleep and auto work but after wake up screen black need to change resolution once to light on it. Mini DisplayPort work tested on MacOS systems 10.15.7-11.1
+Camera works  
+Keyboard works  
+TouchPad works  
+TouchScreen not works  
+Battery works  
+Graphics OpenGL/Metal works  
+MiniDP works  
+Sleep works, but after wake up screen black need to change resolution once to light on it (Can use QuickRes and keyboard to change resolution after login, if no external display)  
+Audio works, but some issue with headphone (Headphone mic not work, and if unplug power, headphone no sound but noise)
+USB 2.0/3.0 works (need create your own usbports.kext )
+
+Tested on MacOS systems 10.15.7-11.1
